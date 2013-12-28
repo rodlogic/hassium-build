@@ -4,7 +4,7 @@ solutions = [
      "deps_file"   : ".DEPS.git",
      "managed"     : True,
      "custom_deps" : {
-        "src/content/nw": "https://github.com/rodlogic/hassium-exe.git@origin/master",
+       "src/content/nw": "https://github.com/rodlogic/hassium-exe.git@origin/master",
        "src/third_party/WebKit/LayoutTests": None,
        "src/chrome_frame/tools/test/reference_build/chrome": None,
        "src/chrome_frame/tools/test/reference_build/chrome_win": None,
