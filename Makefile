@@ -12,3 +12,7 @@ gyp:
 .PHONY: build
 build:
 	@cd src && ninja -C out/Debug nw -j6
+
+.PHONY: run
+run:
+	open src/out/Debug/node-webkit.app
